@@ -1,4 +1,94 @@
-body{
-    width: 393px;
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8480F5;
+}
+
+header > .img-name{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+header > .img-name > img{
+    width: 10rem;
+    height: 15rem;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    border-radius: 120%;
+}
+
+header > .img-name > h1{
+    color: white;
+    font-size: 1rem;
+}
+
+header > .text {
+    color: white;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+header > .text > h3{
+    color: #4733a0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+main{
+    width: 100%;
+    height: 30rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main > .proyects{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+main > .proyects > .proyect{
+    margin: 3rem;
+    width: 80%;
+    height: 15rem;
+    background-color: #4733a0;
+    display: flex;
+}
+
+main > .proyects > .proyect > .img{
+    width: 40%;
+    height: 100%;
+    margin: 0.5rem;
+}
+
+main > .proyects > .proyect > .img > img{
+    width: 6rem;
+    height: 6rem;
+    padding: 0.3rem;
+    border-radius: 100%;
+}
+
+main > .proyects > .proyect > .text1{
+    width: 60%;
+    height: 100%;
+}
